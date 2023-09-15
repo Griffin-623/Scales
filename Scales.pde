@@ -35,7 +35,7 @@ if(Color  == 255){
 }
  
 
-  System.out.print(Color);
+ 
   fill(Color+223,Color+146,146+Color2);
  
   arc(500+x, 500+y, 50, 50,radians(180),radians(360));
