@@ -2,14 +2,11 @@ public void setup() {
   size(500, 500);
   noLoop();
 }
-
-
-
 public void draw() {
  int Color = 0;
 int Color2 = 0;
 for(int y = 0; y >-550; y= y -60 ){
-for(int x = 0 ; x >= -500 ; x = x -25 ) //8 rows
+for(int x = 0 ; x >= -500 ; x = x -25 ) 
 
 
 {
