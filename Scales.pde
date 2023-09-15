@@ -8,10 +8,9 @@ public void setup() {
 public void draw() {
  int Color = 0;
 int Color2 = 0;
-int randomy = 0;
 for(int y = 0; y >-550; y= y -60 ){
 for(int x = 0 ; x >= -500 ; x = x -25 ) //8 rows
-//randomy = (int)Math.random()*20;
+
 
 {
 
@@ -31,8 +30,9 @@ for(int x = 0 ; x >= -500 ; x = x -25 ) //8 rows
     }
  
  }
- 
- 
+if(Color  == 255){
+  Color = 0;
+}
  
 
   System.out.print(Color);
@@ -42,6 +42,7 @@ for(int x = 0 ; x >= -500 ; x = x -25 ) //8 rows
  
   fill(Color+242,Color+191,Color+160);
   triangle(455+x,500+y,525+x,500+y,487.5+x,545+y);
+  
 }
 
 }
